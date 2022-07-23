@@ -1,0 +1,6 @@
+OpenBB wurde 2 mal installiert.
+- Einmal mit dem Installer in A:
+    - Das Terminal kann aufgerufen werden in A:\Programme\OpenBB -> OpenBBTerminal
+- Einmal über Anaconda in C:
+    - C:\User\... -> OpenBBTerminal -> OpenBBTerminal.bat
+    - oder besser: mit Anaconda Prompt -> conda activate obb -> python terminal.py
