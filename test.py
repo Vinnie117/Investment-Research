@@ -38,20 +38,32 @@ print(aapl_data_eur)
 print(aapl_data_eur.dtypes)
 print(aapl_data_eur.index.dtype)
 
-# range of subsequent dates and then nalocf -> or not (and just skip nan days)? 
-idx = pd.date_range("2021-06-10", datetime.now())
-#aapl_data_eur.index = pd.DatetimeIndex(aapl_data_eur.index)
-aapl_data_eur = aapl_data_eur.reindex(idx, method="ffill")
-print(aapl_data_eur[130:140])
+# # range of subsequent dates and then nalocf -> or not (and just skip nan days)? 
+# idx = pd.date_range("2021-06-10", datetime.now())
+# aapl_data_eur.index = pd.DatetimeIndex(aapl_data_eur.index)
+# aapl_data_eur = aapl_data_eur.reindex(idx, method="ffill")
+# print(aapl_data_eur[130:140]) # has nalocf for Christmas -> but why not in data frame?
 
+
+dates = pd.date_range("2021-06-10", datetime.now())
+prices = aapl_data_eur
+combi = pd.DataFrame(data = prices, index = dates)
+combi = combi.fillna(method='ffill')
+print(combi)
+
+
+#print(aapl_data_eur.index.values)
+print(combi.isnull().sum()) # -> still 14 NaN?? -> why?
+
+#################################################################################
 # An own custom plot
+
 # plt.plot(aapl_data.index.values, aapl_data['Close'])
 # plt.title('Apple Aktie')
 # plt.savefig('A:\Projects\Investment-Research\plots\plot.png')
 
-#print(aapl_data_eur.index.values)
 
-plt.plot(aapl_data_eur.index.values, aapl_data_eur)
+plt.plot(combi.index.values, combi)
 plt.title('Apple Aktie')
 plt.savefig('A:\Projects\Investment-Research\plots\plot_eur.png')
 
