@@ -24,14 +24,23 @@ aapl_data = openbb.stocks.load(ticker="aapl", start=datetime.strptime("2021-06-1
 print(type(aapl_data))
 print(aapl_data)
 
-# This is supposed to print a plot
-#candle = openbb.stocks.process_candle(aapl_data)
-#openbb.stocks.candle("AAPL", candle, True)
+# Euro conversion
+usdeur = openbb.forex.load(to_symbol="EUR", from_symbol="USD", resolution='d', interval='1day', start_date="2021-06-10")
+usdeur_close = usdeur['Close']
+print(usdeur_close)
+
+# Convert stock price to euro
+aapl_data_eur = aapl_data['Close'] * usdeur_close
+print(aapl_data_eur)
+
 
 # An own custom plot
 plt.plot(aapl_data.index.values, aapl_data['Close'])
 plt.title('Apple Aktie')
 plt.savefig('A:\Projects\Investment-Research\plots\plot.png')
 
+plt.plot(aapl_data_eur.index.values, aapl_data_eur)
+plt.title('Apple Aktie')
+plt.savefig('A:\Projects\Investment-Research\plots\plot_eur.png')
 
 print("END")
