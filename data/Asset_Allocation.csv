@@ -1,0 +1,24 @@
+Ebenen 1;Ebenen 2;Ebenen 3;Ebenen 4;Gewichtung;Aufteilung;Verwendet zum Rebalancing;SOLL Wert;IST %;IST-% am GV;IST Wert;Delta %;Delta % Indikator;Deltawert;Rebalance (Wert);Kurs;Rebalance (Stücke)
+Asset Allocation;;;;;100,00;;13.651,88;100,00;100,00;13.651,88;0,00;Asset Allocation;0,00;;;
+Asset Allocation;Risikobehafteter Portfolioteil (Weltportfolio);;;;70,00;;9.556,32;73,51;73,51;10.035,68;5,02;Risikobehafteter Portfolioteil (Weltportfolio);479,36;;;
+Asset Allocation;Risikobehafteter Portfolioteil (Weltportfolio);USA / Nordamerika;;;24,00;;2.293,52;29,44;21,64;2.954,64;28,83;USA / Nordamerika;661,12;;;
+Asset Allocation;Risikobehafteter Portfolioteil (Weltportfolio);USA / Nordamerika;iShares MSCI North America UCITS ETF;100,00;;;;100,00;21,64;2.954,64;;name.abuchen.portfolio.ui.views.taxonomy.TaxonomyNode$AssignmentNode@3569c758;;EUR -661,12;75,76;-8,72650475
+Asset Allocation;Risikobehafteter Portfolioteil (Weltportfolio);Westeuropa;;;19,00;;1.815,70;16,73;12,30;1.679,02;-7,53;Westeuropa;-136,68;;;
+Asset Allocation;Risikobehafteter Portfolioteil (Weltportfolio);Westeuropa;iShares Core MSCI Europe UCITS ETF EUR (Dist);100,00;;;;100,00;12,30;1.679,02;;name.abuchen.portfolio.ui.views.taxonomy.TaxonomyNode$AssignmentNode@79e1bea6;;EUR 136,68;27,525;4,96566757
+Asset Allocation;Risikobehafteter Portfolioteil (Weltportfolio);Japan / Australien;;;7,00;;668,94;5,74;4,22;575,60;-13,95;Japan / Australien;-93,34;;;
+Asset Allocation;Risikobehafteter Portfolioteil (Weltportfolio);Japan / Australien;Lyxor MSCI Pacific UCITS ETF;100,00;;;;100,00;4,22;575,60;;name.abuchen.portfolio.ui.views.taxonomy.TaxonomyNode$AssignmentNode@4028e1f3;;EUR 93,34;57,56;1,62161223
+Asset Allocation;Risikobehafteter Portfolioteil (Weltportfolio);Aktien Schwellenländer;;;30,00;;2.866,90;24,30;17,86;2.438,59;-14,94;Aktien Schwellenländer;-428,31;;;
+Asset Allocation;Risikobehafteter Portfolioteil (Weltportfolio);Aktien Schwellenländer;iShares MSCI EM UCITS ETF (Dist);100,00;;;;100,00;17,86;2.438,59;;name.abuchen.portfolio.ui.views.taxonomy.TaxonomyNode$AssignmentNode@3f91ac28;;EUR 428,31;38,103;11,24084718
+Asset Allocation;Risikobehafteter Portfolioteil (Weltportfolio);Immobilien weltweit;;;0,00;;0,00;0,00;0,00;0,00;NaN;Immobilien weltweit;0,00;;;
+Asset Allocation;Risikobehafteter Portfolioteil (Weltportfolio);Commodities/Rohstoffe;;;20,00;;1.911,26;23,79;17,49;2.387,83;24,93;Commodities/Rohstoffe;476,57;;;
+Asset Allocation;Risikobehafteter Portfolioteil (Weltportfolio);Commodities/Rohstoffe;iShares Diversified Commodity Swap UCITS ETF;100,00;;;;100,00;17,49;2.387,83;;name.abuchen.portfolio.ui.views.taxonomy.TaxonomyNode$AssignmentNode@13b7eb3;;EUR -476,57;7,214;-66,06182423
+Asset Allocation;Risikofreier Portfolioteil;;;;30,00;;4.095,56;26,49;26,49;3.616,20;-11,70;Risikofreier Portfolioteil;-479,36;;;
+Asset Allocation;Risikofreier Portfolioteil;Wertpapierkonto;;100,00;;;;7,22;1,91;260,92;;name.abuchen.portfolio.ui.views.taxonomy.TaxonomyNode$AssignmentNode@195279b8;;EUR 159,79;;
+Asset Allocation;Risikofreier Portfolioteil;Tagesgeld;;100,00;;;;13,83;3,66;500,00;;name.abuchen.portfolio.ui.views.taxonomy.TaxonomyNode$AssignmentNode@1ef224ec;;EUR 159,79;;
+Asset Allocation;Risikofreier Portfolioteil;iShares Core Euro Government Bond UCITS ETF (Dist);;100,00;;;;78,96;20,91;2.855,28;;name.abuchen.portfolio.ui.views.taxonomy.TaxonomyNode$AssignmentNode@62e51113;;EUR 159,79;118,97;1,34311171
+Ohne Klassifizierung;;;;;0,00;;0,00;0,00;0,00;0,00;NaN;Ohne Klassifizierung;0,00;;;
+Ohne Klassifizierung;Dax;;;100,00;;;;0,00;0,00;0,00;;name.abuchen.portfolio.ui.views.taxonomy.TaxonomyNode$AssignmentNode@5f5c5fc2;;;;
+Ohne Klassifizierung;Dow Jones;;;100,00;;;;0,00;0,00;0,00;;name.abuchen.portfolio.ui.views.taxonomy.TaxonomyNode$AssignmentNode@462d4f3c;;;;
+Ohne Klassifizierung;Germany (Harmonized Consumer Priced Index);;;100,00;;;;0,00;0,00;0,00;;name.abuchen.portfolio.ui.views.taxonomy.TaxonomyNode$AssignmentNode@5002aa66;;;;
+Ohne Klassifizierung;MSCI World;;;100,00;;;;0,00;0,00;0,00;;name.abuchen.portfolio.ui.views.taxonomy.TaxonomyNode$AssignmentNode@17b41d39;;;;
+Ohne Klassifizierung;NASDAQ Composite;;;100,00;;;;0,00;0,00;0,00;;name.abuchen.portfolio.ui.views.taxonomy.TaxonomyNode$AssignmentNode@2aabe242;;;;

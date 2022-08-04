@@ -1,0 +1,7 @@
+Datum;Typ;Wert;Buchungswährung;Bruttobetrag;Währung Bruttobetrag;Wechselkurs;Gebühren;Steuern;Stück;ISIN;WKN;Ticker-Symbol;Wertpapiername;Notiz
+2019-01-07T00:00;Kauf;2.946,83;EUR;;;;9,95;0,00;24;IE00B4WXJJ64;A0RL83;EUNH;iShares Core Euro Government Bond UCITS ETF (Dist);
+2019-01-07T00:00;Kauf;1.330,25;EUR;;;;9,90;0,00;61;IE00B1YZSC51;A0MZWQ;IQQY;iShares Core MSCI Europe UCITS ETF EUR (Dist);
+2019-01-08T00:00;Kauf;1.408,43;EUR;;;;0,00;9,95;331;IE00BDFL4P12;A2DK6R;SXRS;iShares Diversified Commodity Swap UCITS ETF;
+2019-01-07T00:00;Kauf;2.122,72;EUR;;;;0,00;9,95;64;IE00B0M63177;A0HGWC;IQQE;iShares MSCI EM UCITS ETF (Dist);
+2019-01-07T00:00;Kauf;1.635,28;EUR;;;;0,00;9,95;39;IE00B14X4M10;A0J201;IQQN;iShares MSCI North America UCITS ETF;
+2019-01-07T00:00;Kauf;486,40;EUR;;;;4,95;0,00;10;LU0392495023;ETF114;X014;Lyxor MSCI Pacific UCITS ETF;
